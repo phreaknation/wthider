@@ -1,0 +1,20 @@
+/* -------- hiders -------- */
+
+.hider {
+    display: inline-block;
+    font-size: 16pt;
+    height: 18px;
+    text-align: center;
+    width: 19px;
+}
+
+/* ------- Sprites -------- */
+
+.hider.smbtn {
+    background: url("../images/sprite.png") center center;
+    background-position: -195px -76px;
+}
+
+.hider.smbtn:active {
+    background-position: -195px -94px;
+}
